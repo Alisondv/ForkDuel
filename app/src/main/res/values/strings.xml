@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">ForkDuel</string>
+
+    <!-- Screen 1 - Opening -->
+    <string name="label_opponent_of_the_day">Opponent of the day</string>
+    <string name="opponent_username_mock">@octocat-dev</string>
+    <string name="label_challenge">Challenge</string>
+    <string name="challenge_title_mock">Reverse a string</string>
+    <string name="label_current_ranking">Current ranking</string>
+    <string name="ranking_value_mock">#42</string>
+    <string name="button_resolve_challenge">Resolve challenge</string>
+    <string name="label_attributes">Attributes</string>
 </resources>
