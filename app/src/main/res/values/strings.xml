@@ -3,6 +3,7 @@
 
     <!-- Screen 1 - Opening -->
     <string name="label_opponent_of_the_day">Opponent of the day</string>
+    <string name="duel_status_mock">Active duel · 12 solved</string>
     <string name="opponent_username_mock">@octocat-dev</string>
     <string name="label_challenge">Challenge</string>
     <string name="challenge_title_mock">Reverse a string</string>
