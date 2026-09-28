@@ -64,6 +64,29 @@
 
         </LinearLayout>
 
+        <!--Card 02: Challenge of the day-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/spacing_md"
+            android:padding="@dimen/card_padding">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_challenge"
+                android:textColor="@color/text_secondary"
+                android:textSize="@dimen/text_size_caption"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/challenge_title_mock"
+                android:textColor="@color/text_primary"
+                android:textSize="@dimen/text_size_body" />
+
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>
