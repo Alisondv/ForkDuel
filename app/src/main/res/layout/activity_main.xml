@@ -24,11 +24,25 @@
             android:orientation="horizontal"
             android:padding="@dimen/card_padding">
 
-            <ImageView
+            <!-- Avatar: pentagon frame with placeholder profile icon stacked on top -->
+            <FrameLayout
                 android:layout_width="@dimen/avatar_size"
-                android:layout_height="@dimen/avatar_size"
-                android:contentDescription="@string/label_opponent_of_the_day"
-                android:src="@mipmap/ic_launcher" />
+                android:layout_height="@dimen/avatar_size">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_avatar_frame"
+                    android:contentDescription="@null" />
+
+                <ImageView
+                    android:layout_width="@dimen/avatar_icon_size"
+                    android:layout_height="@dimen/avatar_icon_size"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_default_profile"
+                    android:contentDescription="@string/label_opponent_of_the_day" />
+
+            </FrameLayout>
 
             <!-- Text block: opponent label and username -->
             <LinearLayout

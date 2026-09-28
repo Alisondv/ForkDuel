@@ -15,6 +15,7 @@
     <dimen name="button_corner_radius">8dp</dimen>
     <dimen name="avatar_size">56dp</dimen>
     <dimen name="pill_corner_radius">999dp</dimen>
+    <dimen name="avatar_icon_size">32dp</dimen>
 
     <!-- Typography -->
     <dimen name="text_size_display">28sp</dimen>
