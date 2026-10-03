@@ -14,6 +14,29 @@
         android:orientation="vertical"
         android:padding="@dimen/spacing_md">
 
+        <!-- App header: logo dot + app name -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/spacing_md"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="@dimen/logo_dot_size"
+                android:layout_height="@dimen/logo_dot_size"
+                android:background="@drawable/logo_dot_background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_sm"
+                android:text="@string/app_name"
+                android:textColor="@color/text_primary"
+                android:textSize="@dimen/text_size_heading" />
+
+        </LinearLayout>
+
         <!-- Card 01: opponent of the day -->
         <LinearLayout
             android:layout_width="match_parent"
@@ -32,15 +55,15 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/ic_avatar_frame"
-                    android:contentDescription="@null" />
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_avatar_frame" />
 
                 <ImageView
                     android:layout_width="@dimen/avatar_icon_size"
                     android:layout_height="@dimen/avatar_icon_size"
                     android:layout_gravity="center"
-                    android:src="@drawable/ic_default_profile"
-                    android:contentDescription="@string/label_opponent_of_the_day" />
+                    android:contentDescription="@string/label_opponent_of_the_day"
+                    android:src="@drawable/ic_default_profile" />
 
             </FrameLayout>
 
@@ -82,9 +105,9 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/spacing_md"
             android:background="@drawable/card_background"
             android:orientation="vertical"
-            android:layout_marginBottom="@dimen/spacing_md"
             android:padding="@dimen/card_padding">
 
             <TextView
@@ -92,14 +115,43 @@
                 android:layout_height="wrap_content"
                 android:text="@string/label_challenge"
                 android:textColor="@color/text_secondary"
-                android:textSize="@dimen/text_size_caption"/>
+                android:textSize="@dimen/text_size_caption" />
 
+            <!--Reverse a String -->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/challenge_title_mock"
                 android:textColor="@color/text_primary"
                 android:textSize="@dimen/text_size_body" />
+
+            <!-- Tags "Easy" and "Time"-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_md"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="59dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/spacing_md"
+                    android:background="@drawable/pill_background"
+                    android:padding="@dimen/spacing_sm"
+                    android:text="@string/difficulty_easy_mock"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="@dimen/text_size_caption" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/pill_background"
+                    android:padding="@dimen/spacing_sm"
+                    android:text="@string/estimated_time_mock"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="@dimen/text_size_caption" />
+
+            </LinearLayout>
 
         </LinearLayout>
     </LinearLayout>
