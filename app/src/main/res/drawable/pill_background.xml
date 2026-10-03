@@ -6,7 +6,7 @@
 
     <stroke
         android:width="@dimen/card_border_width"
-        android:color="@color/accent_blue" />
+        android:color="@color/border" />
 
     <corners android:radius="@dimen/pill_corner_radius" />
 
