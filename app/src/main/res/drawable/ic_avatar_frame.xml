@@ -3,12 +3,12 @@
     android:width="24dp" android:height="24dp"
     android:viewportWidth="24" android:viewportHeight="24">
 
-    <!-- Pentágono externo: a própria forma preenchida de azul funciona como moldura -->
+    <!-- Outer pentagon: solid shape acts as the frame -->
     <path
         android:fillColor="@color/accent_blue"
         android:pathData="M12,2 L21.51,8.91 L17.88,20.09 L6.12,20.09 L2.49,8.91 Z" />
 
-    <!-- Pentágono interno: preenchimento acinzentado que fica por baixo do ícone de perfil -->
+    <!-- Inner pentagon: grayish fill sitting behind the profile icon -->
     <path
         android:fillColor="@color/avatar_fill"
         android:pathData="M12,4 L19.61,9.53 L16.70,18.47 L7.30,18.47 L4.39,9.53 Z" />

@@ -11,4 +11,6 @@
     <string name="ranking_value_mock">#42</string>
     <string name="button_resolve_challenge">Resolve challenge</string>
     <string name="label_attributes">Attributes</string>
+    <string name="difficulty_easy_mock">Easy</string>
+    <string name="estimated_time_mock">~5 min</string>
 </resources>
