@@ -3,6 +3,7 @@
 <!-- Root: scrollable container for the opening screen -->
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true">
@@ -387,5 +388,16 @@
                 android:textSize="@dimen/text_size_heading" />
 
         </LinearLayout>
+
+        <!-- Action button: resolve the challenge -->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:background="@drawable/button_background"
+            android:stateListAnimator="@null"
+            android:text="@string/button_resolve_challenge"
+            android:textAllCaps="false"
+            android:textColor="@color/text_primary"
+            android:textSize="@dimen/text_size_body" />
     </LinearLayout>
 </ScrollView>
