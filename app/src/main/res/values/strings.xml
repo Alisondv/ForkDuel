@@ -10,7 +10,23 @@
     <string name="label_current_ranking">Current ranking</string>
     <string name="ranking_value_mock">#42</string>
     <string name="button_resolve_challenge">Resolve challenge</string>
-    <string name="label_attributes">Attributes</string>
+
+    <!-- Screen 1 - Difficulty and Time -->
     <string name="difficulty_easy_mock">Easy</string>
-    <string name="estimated_time_mock">~5 min</string>
+    <string name="estimated_time_mock" >~5 min</string>
+
+
+    <!-- Screen 1 - Attributes -->
+    <string name="label_attributes">Attributes</string>
+    <string name="attributes_average_mock">average 78</string>
+    <string name="attribute_logic">Logic</string>
+    <string name="attribute_logic_value_mock">86</string>
+    <string name="attribute_speed">Speed</string>
+    <string name="attribute_speed_value_mock">72</string>
+    <string name="attribute_accuracy">Accuracy</string>
+    <string name="attribute_accuracy_value_mock">92</string>
+    <string name="attribute_consistency">Consistency</string>
+    <string name="attribute_consistency_value_mock">64</string>
+    <string name="attribute_reading">Reading</string>
+    <string name="attribute_reading_value_mock">78</string>
 </resources>

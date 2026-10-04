@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp" android:height="200dp"
+    android:viewportWidth="100" android:viewportHeight="100">
+
+    <!-- Grid: outer ring, 100% of the max value -->
+    <path
+        android:pathData="M50,5 L92.80,36.09 L76.46,86.41 L23.54,86.41 L7.20,36.09 Z"
+        android:strokeColor="@color/border"
+        android:strokeWidth="0.5" />
+
+    <!-- Grid: middle ring, ~66% -->
+    <path
+        android:pathData="M50,20 L78.53,40.73 L67.64,74.27 L32.36,74.27 L21.47,40.73 Z"
+        android:strokeColor="@color/border"
+        android:strokeWidth="0.5" />
+
+    <!-- Grid: inner ring, ~33% -->
+    <path
+        android:pathData="M50,35 L64.27,45.37 L58.82,62.14 L41.18,62.14 L35.73,45.37 Z"
+        android:strokeColor="@color/border"
+        android:strokeWidth="0.5" />
+
+    <!-- Grid: 5 spokes from center to each axis direction -->
+    <path
+        android:pathData="M50,50 L50,5 M50,50 L92.80,36.09 M50,50 L76.46,86.41 M50,50 L23.54,86.41 M50,50 L7.20,36.09"
+        android:strokeColor="@color/border"
+        android:strokeWidth="0.5" />
+
+    <!-- Data shape: Logic 86, Speed 72, Accuracy 92, Consistency 64, Reading 78 -->
+    <path
+        android:pathData="M50,11.30 L80.81,39.99 L74.33,83.49 L33.07,73.30 L16.62,39.15 Z"
+        android:fillColor="@color/accent_blue"
+        android:fillAlpha="0.25"
+        android:strokeColor="@color/accent_blue"
+        android:strokeWidth="1.5" />
+
+</vector>

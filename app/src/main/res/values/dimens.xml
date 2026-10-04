@@ -28,4 +28,9 @@
     <!-- Logo -->
     <dimen name="logo_dot_size">10dp</dimen>
 
+    <!-- Attributes -->
+    <dimen name="radar_chart_size">160dp</dimen>
+    <dimen name="radar_container_height">260dp</dimen>
+
+
 </resources>
