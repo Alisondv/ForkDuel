@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- Root: scrollable container for the opening screen -->
+<!-- Screen 1 - scrollable container for the opening screen -->
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main"
@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:fillViewport="true">
 
-    <!-- Main content container: vertical stack of cards and the action button -->
+    <!-- Screen 1 - Main content container: vertical stack of cards and the action button -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,7 +16,7 @@
         android:orientation="vertical"
         android:padding="@dimen/spacing_md">
 
-        <!-- App header: logo dot + app name -->
+        <!-- Screen 1 - App header: logo dot + app name -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
 
         </LinearLayout>
 
-        <!-- Card 01: opponent of the day -->
+        <!-- Screen 1 - Card 01: opponent of the day -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -49,7 +49,7 @@
             android:orientation="horizontal"
             android:padding="@dimen/card_padding">
 
-            <!-- Avatar: pentagon frame with placeholder profile icon stacked on top -->
+            <!-- Screen 1 - Avatar: pentagon frame with placeholder profile icon stacked on top -->
             <FrameLayout
                 android:layout_width="@dimen/avatar_size"
                 android:layout_height="@dimen/avatar_size">
@@ -69,7 +69,7 @@
 
             </FrameLayout>
 
-            <!-- Text block: opponent label and username -->
+            <!-- Screen 1 - Text block: opponent label and username -->
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -103,7 +103,7 @@
 
         </LinearLayout>
 
-        <!--Card 02: Challenge of the day-->
+        <!-- Screen 1 - Card 02: Challenge of the day-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -119,7 +119,7 @@
                 android:textColor="@color/text_secondary"
                 android:textSize="@dimen/text_size_caption" />
 
-            <!--Reverse a String -->
+            <!-- Screen 1 - Reverse a String -->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -127,7 +127,7 @@
                 android:textColor="@color/text_primary"
                 android:textSize="@dimen/text_size_body" />
 
-            <!-- Tags "Easy" and "Time"-->
+            <!-- Screen 1 - Tags "Easy" and "Time"-->
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -158,7 +158,7 @@
             </LinearLayout>
         </LinearLayout>
 
-        <!-- Card 03: attributes radar chart -->
+        <!-- Screen 1 -  Card 03: attributes radar chart -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -167,7 +167,7 @@
             android:orientation="vertical"
             android:padding="@dimen/card_padding">
 
-            <!-- Title row: "Attributes" Label + "average 78" value -->
+            <!-- Screen 1 - Title row: "Attributes" Label + "average 78" value -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -189,7 +189,7 @@
                     android:textSize="@dimen/text_size_body" />
 
             </LinearLayout>
-            <!-- Radar chart area: image + label blocks positioned around it -->
+            <!-- Screen 1 - Radar chart area: image + label blocks positioned around it -->
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/radar_container_height"
@@ -205,7 +205,8 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
-                <!-- Logic: top center -->
+
+                <!-- Screen 1 - Logic: top center -->
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -234,7 +235,7 @@
                         android:textSize="@dimen/text_size_body" />
 
                 </LinearLayout>
-                <!-- Speed: upper right -->
+                <!-- Screen 1 - Speed: upper right -->
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -263,7 +264,7 @@
                         android:textSize="@dimen/text_size_body" />
 
                 </LinearLayout>
-                <!-- Consistency: bottom left -->
+                <!-- Screen 1 - Consistency: bottom left -->
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -293,7 +294,7 @@
 
 
                 </LinearLayout>
-                <!-- Accuracy: bottom right -->
+                <!-- Screen 1 - Accuracy: bottom right -->
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -323,7 +324,7 @@
 
                 </LinearLayout>
 
-                <!-- Reading: top left -->
+                <!-- Screen 1 - Reading: top left -->
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -355,7 +356,7 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
-        <!-- Card 04: current ranking -->
+        <!-- Screen 1 - Card 04: current ranking -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -389,7 +390,7 @@
 
         </LinearLayout>
 
-        <!-- Action button: resolve the challenge -->
+        <!-- Screen 1 -  Action button: resolve the challenge -->
         <Button
             android:layout_width="match_parent"
             android:layout_height="@dimen/button_height"

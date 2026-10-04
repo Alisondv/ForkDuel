@@ -1,15 +1,19 @@
 <resources>
     <string name="app_name">ForkDuel</string>
 
-    <!-- Screen 1 - Opening -->
+    <!-- Screen 1 - Opponent and Challenge -->
     <string name="label_opponent_of_the_day">Opponent of the day</string>
+    <string name="label_challenge">Challenge of the day</string>
+    <string name="button_resolve_challenge">Resolve challenge</string>
+
+    <!-- Screen 1 - Mock data -->
     <string name="duel_status_mock">Active duel · 12 solved</string>
     <string name="opponent_username_mock">@octocat-dev</string>
-    <string name="label_challenge">Challenge of the day</string>
     <string name="challenge_title_mock">Reverse a string</string>
+
+    <!-- Screen 1 - Ranking -->
     <string name="label_current_ranking">Current ranking</string>
     <string name="ranking_value_mock">#42</string>
-    <string name="button_resolve_challenge">Resolve challenge</string>
 
     <!-- Screen 1 - Difficulty and Time -->
     <string name="difficulty_easy_mock">Easy</string>
