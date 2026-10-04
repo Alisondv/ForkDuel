@@ -354,6 +354,38 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
+        <!-- Card 04: current ranking -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/spacing_md"
+            android:background="@drawable/card_background"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/card_padding">
 
+            <ImageView
+                android:layout_width="@dimen/ranking_icon_size"
+                android:layout_height="@dimen/ranking_icon_size"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_star" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_sm"
+                android:layout_weight="1"
+                android:text="@string/label_current_ranking"
+                android:textColor="@color/text_primary"
+                android:textSize="@dimen/text_size_body" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ranking_value_mock"
+                android:textColor="@color/text_primary"
+                android:textSize="@dimen/text_size_heading" />
+
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>

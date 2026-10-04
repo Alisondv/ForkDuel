@@ -32,5 +32,8 @@
     <dimen name="radar_chart_size">160dp</dimen>
     <dimen name="radar_container_height">260dp</dimen>
 
+    <!-- Ranking -->
+    <dimen name="ranking_icon_size">20dp</dimen>
+
 
 </resources>
