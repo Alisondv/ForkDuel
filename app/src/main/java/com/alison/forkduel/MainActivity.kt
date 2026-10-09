@@ -19,10 +19,20 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        // Temporary: just opens the result screen so both layouts can be seen in sequence.
-        // No real duel logic yet - this will be replaced later.
+        // Opens the result screen, passing along the challenge that's being
+        // resolved. No real duel logic yet - this will be replaced later.
         findViewById<android.widget.Button>(R.id.button_resolve_challenge).setOnClickListener {
-            startActivity(Intent(this, ResultActivity::class.java))
+            val challenge = ChallengeInfo(
+                title = getString(R.string.challenge_title_mock),
+                opponentUsername = getString(R.string.opponent_username_mock),
+                difficulty = getString(R.string.difficulty_easy_mock)
+            )
+
+            val intent = Intent(this, ResultActivity::class.java)
+            intent.putExtra(ResultActivity.EXTRA_CHALLENGE_TITLE, challenge.title)
+            intent.putExtra(ResultActivity.EXTRA_OPPONENT_USERNAME, challenge.opponentUsername)
+            intent.putExtra(ResultActivity.EXTRA_DIFFICULTY, challenge.difficulty)
+            startActivity(intent)
         }
     }
 }

@@ -48,6 +48,7 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/text_challenge_subtitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/spacing_xs"
@@ -55,6 +56,17 @@
                 android:text="@string/challenge_subtitle_mock"
                 android:textColor="@color/text_secondary"
                 android:textSize="@dimen/text_size_caption" />
+
+            <!-- Difficulty: optional, set from the ChallengeInfo passed via Intent.
+                 Hidden when the challenge has none (see ResultActivity.kt). -->
+            <TextView
+                android:id="@+id/text_result_difficulty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xs"
+                android:textColor="@color/text_secondary"
+                android:textSize="@dimen/text_size_caption"
+                android:visibility="gone" />
 
         </LinearLayout>
 
@@ -224,6 +236,7 @@
                     android:padding="@dimen/card_padding">
 
                     <TextView
+                        android:id="@+id/text_opponent_panel_header"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/opponent_username_mock"

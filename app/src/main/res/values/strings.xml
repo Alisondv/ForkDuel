@@ -40,6 +40,8 @@
     <!-- Screen 2 - Result header -->
     <string name="label_result_title">Duel result</string>
     <string name="challenge_subtitle_mock">Reverse a string · Sep 20</string>
+    <string name="duel_date_mock">Sep 20</string>
+    <string name="result_difficulty_format">Difficulty: %s</string>
 
     <!-- Screen 2 - Code comparison panels -->
     <string name="panel_mine_header">Your solution</string>
