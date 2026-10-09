@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Verdict card: same shape as card_background, but tinted green to signal a win -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="@color/success_green_bg" />
+
+    <corners android:radius="@dimen/card_corner_radius" />
+
+    <stroke
+        android:width="@dimen/card_border_width"
+        android:color="@color/success_green_border" />
+
+</shape>

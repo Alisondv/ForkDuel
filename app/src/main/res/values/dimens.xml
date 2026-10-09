@@ -37,5 +37,7 @@
     <!-- Ranking -->
     <dimen name="ranking_icon_size">20dp</dimen>
 
-
+    <!-- VS badge -->
+    <dimen name="vs_badge_size">34dp</dimen>
+    <dimen name="vs_badge_border_width">2dp</dimen>
 </resources>

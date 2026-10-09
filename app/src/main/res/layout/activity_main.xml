@@ -392,6 +392,7 @@
 
         <!-- Screen 1 -  Action button: resolve the challenge -->
         <Button
+            android:id="@+id/button_resolve_challenge"
             android:layout_width="match_parent"
             android:layout_height="@dimen/button_height"
             android:background="@drawable/button_background"

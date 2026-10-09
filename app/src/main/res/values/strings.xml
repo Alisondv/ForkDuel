@@ -34,7 +34,36 @@
     <string name="attribute_reading">Reading</string>
     <string name="attribute_reading_value_mock">78</string>
 
+    <!-- Screen 2 - Navigation -->
+    <string name="button_back">← Back</string>
+
     <!-- Screen 2 - Result header -->
     <string name="label_result_title">Duel result</string>
     <string name="challenge_subtitle_mock">Reverse a string · Sep 20</string>
+
+    <!-- Screen 2 - Code comparison panels -->
+    <string name="panel_mine_header">Your solution</string>
+    <string name="vs_label">VS</string>
+    <string name="mine_time_mock">1.2 ms</string>
+    <string name="mine_complexity_mock">O(n)</string>
+    <string name="opponent_time_mock">3.8 ms</string>
+    <string name="opponent_complexity_mock">O(n²)</string>
+
+    <!-- Screen 2 - Attributes comparison (rival values) -->
+    <string name="label_attributes_comparison">Attributes comparison</string>
+    <string name="comparison_vs_label">vs</string>
+    <string name="attribute_logic_rival_mock">74</string>
+    <string name="attribute_speed_rival_mock">88</string>
+    <string name="attribute_accuracy_rival_mock">61</string>
+    <string name="attribute_consistency_rival_mock">82</string>
+    <string name="attribute_reading_rival_mock">70</string>
+
+    <!-- Screen 2 - Verdict -->
+    <string name="label_verdict_title">Winner: You</string>
+    <string name="label_verdict_subtitle">More efficient solution</string>
+
+    <!-- Screen 2 - Updated ranking -->
+    <string name="label_updated_ranking">Updated ranking</string>
+    <string name="ranking_value_after_mock">#38</string>
+    <string name="ranking_delta_mock">+4</string>
 </resources>

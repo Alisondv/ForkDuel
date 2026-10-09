@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- VS badge: a circular "cutout" that sits on top of the two code panels -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!-- Fill matches the screen background (not the card), so the badge
+         reads as a hole punched through the panels rather than a card on top of them -->
+    <solid android:color="@color/background" />
+
+    <stroke
+        android:width="@dimen/vs_badge_border_width"
+        android:color="@color/accent_blue" />
+
+</shape>

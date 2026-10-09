@@ -1,28 +1,30 @@
 package com.alison.forkduel
 
 // Imports
-import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class MainActivity : AppCompatActivity() {
+// Result screen - mirrors MainActivity's setup, just pointing at activity_result.xml.
+// No logic here yet: this only exists so Tela 2 can be opened and viewed.
+class ResultActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_result)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
 
-        // Temporary: just opens the result screen so both layouts can be seen in sequence.
-        // No real duel logic yet - this will be replaced later.
-        findViewById<android.widget.Button>(R.id.button_resolve_challenge).setOnClickListener {
-            startActivity(Intent(this, ResultActivity::class.java))
+        // Explicit back navigation. The system Back button/gesture already
+        // closes this screen and returns to MainActivity on its own - this
+        // button just gives the same action a visible, tappable spot on screen.
+        findViewById<android.widget.TextView>(R.id.button_back).setOnClickListener {
+            finish()
         }
     }
 }
