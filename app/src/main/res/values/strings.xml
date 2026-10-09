@@ -33,4 +33,8 @@
     <string name="attribute_consistency_value_mock">64</string>
     <string name="attribute_reading">Reading</string>
     <string name="attribute_reading_value_mock">78</string>
+
+    <!-- Screen 2 - Result header -->
+    <string name="label_result_title">Duel result</string>
+    <string name="challenge_subtitle_mock">Reverse a string · Sep 20</string>
 </resources>
